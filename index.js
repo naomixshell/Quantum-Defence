@@ -1,11 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './App.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function App() {
+  return (
+    <div className="App">
+      <h1>Welcome to Quantum-Defence!</h1>
+      <p>This is your React/Next.js app.</p>
+    </div>
+  );
+}
+
+export default App;
